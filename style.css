@@ -83,6 +83,7 @@ section:hover {
     align-items: center; /* Alinha verticalmente os itens ao centro */
     margin-bottom: 30px; /* Aumenta o espaçamento entre a imagem e o próximo conteúdo */
     gap: 20px; /* Espaçamento entre a imagem e o texto */
+    flex-wrap: wrap; /* Permite quebra de linha se necessário */
 }
 
 .imagem-texto img {
