@@ -92,6 +92,12 @@ section:hover {
     border-radius: 10px; /* Aumenta o arredondamento dos cantos */
     box-shadow: 0 5px 15px rgba(18, 20, 29, 0.87);  /* Maior sombra para destacar as seções */
 }
+
+.imagem-texto p {
+    word-wrap: break-word; /* Garante que o texto quebre corretamente */
+    max-width: 80%; /* Evita que o texto ultrapasse a tela */
+    overflow-wrap: break-word;
+}
 /* Rodapé */
 footer {
     text-align: center;
