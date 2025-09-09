@@ -1,110 +1,74 @@
-/* Reset de margens e paddings */
-
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 /* Estilo geral do site */
-
-body{
-    font-family: 'Times New Roman', Times, serif;
-    line-height: 1.6;
-    background-color: rgb(182, 191, 233);
-    color: rgb(60, 76, 107);
-    padding: 20px;
+body {
+  font-family: 'Times New Roman', Times, serif;
+  line-height: 1.6;
+  background-color: #c4d1ee;
+  color: #0a0a0a;
+  padding: 10px;
 }
 
 /* Cabeçalho do site */
-
-header{
-    background-color: rgb(60, 76, 107);
-    color: rgb(252, 252, 252);
-    padding: 20px 0; /* Aumenta o espaçamento do cabeçalho */
-    text-align: center;
+.cabeçalho {
+  background-color: #38518f;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
 }
 
-header h1{
-    margin-bottom: 20px;  /* Aumenta o espaçamento abaixo do título */
+.links-secoes {
+  color: white;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 10px;
 }
 
-/* Links de navegação */
-
-nav ul{
-    list-style: none;
-    padding: 0;
-    display: flex;
-    justify-content: center;
+.links-secoes a {
+  color: white;
+  text-decoration: none; /* tira o sublinhado */
+  font-weight: bold;
 }
 
-nav ul li a{
-    color: rgb(252, 252, 252);
-    text-decoration: none;
-    padding: 12px 10px; /* Aumenta o padding para links clicáveis */
-    transition: color 0.3s ease, background-color 0.3s ease;
+.foto {
+  margin-top: 40px; /* aumenta ou diminui conforme desejar */
+  text-align: center; /* mantém tudo centralizado */
 }
 
-nav ul li a:hover{
-    text-decoration: underline;
-    background-color: rgb(173, 202, 207);  /* Cor de fundo no hover */
-    transform: scale(1.05);  /* Leve aumento de tamanho ao passar o mouse */
+/* Estilo da imagem */
+.foto img {
+  display: block;           /* transforma a imagem em um bloco */
+  margin: 0 auto 20px auto; /* centraliza horizontalmente */
+  width: 180px;             /* tamanho fixo */
+  height: 180px;            /* garante que fique proporcional */
+  border-radius: 50%;       /* deixa a imagem circular */
+  object-fit: cover;        /* ajusta a imagem dentro do círculo */
+  border: 3px solid #2c3e50; /* opcional: borda para destacar */
 }
 
-/* Seção principal do site */
-
-main{
-    margin-top: 20px;
-    padding: 20px;   /* Adiciona espaçamento interno ao main */
+/* Dá espaço entre o cabeçalho e a foto */
+.objetivo {
+  margin-top: 40px;  /* aumenta ou diminui conforme desejar */
+  text-align: center;  /* mantém tudo centralizado */
+  background-color: #f4f6f7;  /* cor de fundo */
+  padding: 20px;           /* espaço interno da caixa */
+  border-radius: 10px;     /* cantos arredondados */
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* sombra opcional para destaque */
 }
 
-/* Estilo para as seções */
+/* Meu objetivo */
+.objetivo p {
+  max-width: 1500px; /* limita a largura do texto */
+  margin: 0 auto;   /* centraliza o texto */
+  text-align: justify; /* justifica o texto */
+  font-size: 18px; /* tamanho da fonte */
+  color: #000000; /* cor do texto */
 
-section {
-    background: rgb(202, 232, 235);
-    padding: 20px; /* Aumenta o espaçamento dentro das seções */
-    border-radius: 10px; /* Aumenta o arredondamento dos cantos */
-    box-shadow: 0 10px 15px rgba(42, 50, 71, 0.644);  /* Maior sombra para destacar as seções */
-    margin-bottom: 20px; /* Aumenta o espaçamento do cabeçalho */
-     
-    transition: background 0.3s ease, box-shadow 0.3s ease, border-radius 0.3s ease, transform 0.3s ease; /* Adiciona transição suave */
-}
-
-section:hover {
-    background: rgb(180, 210, 215); /* Exemplo de cor alterada ao passar o mouse */
-    box-shadow: 0 15px 25px rgba(42, 50, 71, 0.7); /* Sombra mais forte ao passar o mouse */
-    border-radius: 15px; /* Cantos mais arredondados ao passar o mouse */
-    transform: translateY(-10px); /* Move a seção 10px para cima ao passar o mouse */
-}
-
-
-.imagem-texto {
-    display: flex; /* Torna a imagem e o texto mais flexíveis e alinha-os em linha */
-    align-items: center; /* Alinha verticalmente os itens ao centro */
-    margin-bottom: 30px; /* Aumenta o espaçamento entre a imagem e o próximo conteúdo */
-    gap: 20px; /* Espaçamento entre a imagem e o texto */
-    flex-wrap: wrap; /* Permite quebra de linha se necessário */
-}
-
-.imagem-texto img {
-    max-width: 100%; /* Garante que a imagem não ultrapasse seu tamanho definido */
-    height: auto; /* Mantém a proporção da imagem */
-    width: 300px;   /* Define um tamanho fixo para a largura da imagem */
-    border-radius: 10px; /* Aumenta o arredondamento dos cantos */
-    box-shadow: 0 5px 15px rgba(18, 20, 29, 0.87);  /* Maior sombra para destacar as seções */
-}
-
-.imagem-texto p {
-    word-wrap: break-word; /* Garante que o texto quebre corretamente */
-    max-width: 80%; /* Evita que o texto ultrapasse a tela */
-    overflow-wrap: break-word;
-}
-/* Rodapé */
-footer {
-    text-align: center;
-    margin-top: 40px; /* Aumenta o espaçamento entre o conteúdo e o rodapé */
-    color: #3c4c6b;
-    font-size: 1.1rem; /* Aumenta o tamanho da fonte */
-    padding: 10px 0;
-    border-radius: 5px;
 }
