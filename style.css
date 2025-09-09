@@ -73,17 +73,6 @@ body {
 
 }
 
-/* Responsive adjustments */
-@media (max-width: 768px) {
-  .hero-content h2 {
-    font-size: 2em;
-  }
 
-  
-  .brand-logo {
-    display: block;
-    margin: 10px auto;
-    max-width: 200px;
-  }
-}
+
 
