@@ -78,12 +78,7 @@ body {
   .hero-content h2 {
     font-size: 2em;
   }
-  
-  .gallery-grid img {
-    width: 150px;
-    height: 100px;
-    margin: 5px;
-  }
+
   
   .brand-logo {
     display: block;
@@ -91,3 +86,4 @@ body {
     max-width: 200px;
   }
 }
+
