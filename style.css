@@ -72,3 +72,22 @@ body {
   color: #000000; /* cor do texto */
 
 }
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .hero-content h2 {
+    font-size: 2em;
+  }
+  
+  .gallery-grid img {
+    width: 150px;
+    height: 100px;
+    margin: 5px;
+  }
+  
+  .brand-logo {
+    display: block;
+    margin: 10px auto;
+    max-width: 200px;
+  }
+}
