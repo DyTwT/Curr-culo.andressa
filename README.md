@@ -8,7 +8,7 @@ O objetivo deste projeto foi praticar minhas habilidades em desenvolvimento web 
 - CSS  
 
 📂 Acesse o Projeto
-🔗 [Clique aqui para ver meu currículo online]((https://curriculoandressa.netlify.app/))
+🔗 [Clique aqui para ver meu currículo online]([https://curriculoandressa.netlify.app/])
 
 📸 Prévia do Site
 ![Preview do Currículo](./postagem.png)
