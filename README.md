@@ -7,8 +7,8 @@ O objetivo deste projeto foi praticar minhas habilidades em desenvolvimento web 
 - HTML  
 - CSS  
 
-📂 Acesse o Projeto
-🔗 <a href="(https://curriculoandressa.netlify.app/)" target="_blank" rel="noopener noreferrer">Ver meu currículo online</a>
+## 🔗 Acesse o site
+[👉 Ver meu currículo online](https://curriculoandressa.netlify.app/)
 
 📸 Prévia do Site
 ![Preview do Currículo](./postagem.png)
